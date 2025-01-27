@@ -1,6 +1,6 @@
 import 'package:f1/product_list_item.dart';
 
-class CartListItem {
+class CartListItems {
   final Map<int, int> items;
 
   void addToCart(ProductListItem product) {
@@ -19,7 +19,7 @@ class CartListItem {
     }
   }
 
-  CartListItem({
+  CartListItems({
     required this.items,
   });
 }
